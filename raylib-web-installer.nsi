@@ -16,8 +16,9 @@ Section "Install"
   File /r ".\CMake\*.*"
   SetOutPath $INSTDIR\raylib-game-template
   File /r ".\raylib-game-template\*.*"
-  File /r ".\build_cmake_web_setting.bat
-  File /r ".\build_cmake_web.bat
+  SetOutPath $INSTDIR
+  File /r ".\build_cmake_web_setting.bat"
+  File /r ".\build_cmake_web.bat"
 SectionEnd
 
 Section "PostInstall"
