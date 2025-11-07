@@ -1,3 +1,9 @@
 [submodule "raylib-game-template"]
 	path = raylib-game-template
 	url = https://github.com/raysan5/raylib-game-template/
+[submodule "raylib"]
+	path = raylib
+	url = https://github.com/raysan5/raylib
+[submodule "emsdk"]
+	path = emsdk
+	url = https://github.com/emscripten-core/emsdk.git
